@@ -41,6 +41,7 @@ Functional Simulation:
       (The path of cshrc could vary depending on the installation destination)
       
 	After this you can see the window like below 
+![WhatsApp Image 2025-09-03 at 21 13 36_584fb97f](https://github.com/user-attachments/assets/50523810-79b0-4b13-9fdb-5698cbf21b28)
 
 
 ## Fig 2: Invoke the Cadence Environment
@@ -74,12 +75,14 @@ Functional Simulation:
 	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
+![WhatsApp Image 2025-09-03 at 21 13 35_1fa289ef](https://github.com/user-attachments/assets/b91201f9-48e0-4faa-8f80-6e0c1009a7c2)
 
 ## Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![WhatsApp Image 2025-09-03 at 21 13 39_37a3e756](https://github.com/user-attachments/assets/6c3a9ebe-d871-4ee8-ab63-4c5f7bb50a2f)
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +91,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![WhatsApp Image 2025-09-03 at 21 13 36_6561c6ad](https://github.com/user-attachments/assets/c55840b5-1965-4818-b80c-42cb49c1e9a3)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,10 +102,12 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![WhatsApp Image 2025-09-03 at 21 13 38_127bc8d4](https://github.com/user-attachments/assets/459a01e6-4979-49fc-818d-8be220cb9799)
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![WhatsApp Image 2025-09-03 at 21 13 38_127bc8d4](https://github.com/user-attachments/assets/98bb05e6-80f7-4f40-ba73-ee49de485ae0)
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -163,10 +169,13 @@ It contains statements that map logical library names to their physical director
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![WhatsApp Image 2025-09-03 at 21 13 38_d62fbd13](https://github.com/user-attachments/assets/0092d6f8-bcf8-4826-89ef-aa47806e038f)
 
 ## Fig 9: Design Browser window for simulation
+![WhatsApp Image 2025-09-03 at 21 13 37_488f7b45](https://github.com/user-attachments/assets/bb80d1f8-3ae9-4515-9ace-3f0b432e8642)
 
 ## Fig 10: Simulation Waveform Window
+![WhatsApp Image 2025-09-03 at 21 13 37_0d268bde](https://github.com/user-attachments/assets/08cc8321-efd5-4c9c-9923-d5c76efb563c)
 
 ## Fig 11: Simulation Waveform Window
 
